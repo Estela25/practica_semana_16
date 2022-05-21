@@ -10,11 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica_semana_16">
         <activity
-            android:name=".Ejemplo_for"
-            android:exported="false" />
-        <activity
-            android:name=".Ejemplo_IF"
-            android:exported="true">
+            android:name=".Ejemplo_foreach"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,8 +19,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Ejemplo_While"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Ejemplo_for"
             android:exported="false"></activity>
+        <activity
+            android:name=".Ejemplo_IF"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

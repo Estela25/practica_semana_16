@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/practica_semana_16/app/src/main/res/layout/activity_ejemplo_for.xml" value="0.16" />
+        <entry key="..\:/Users/mau_e/AndroidStudioProjects/practica_semana_16/app/src/main/res/layout/activity_ejemplo_foreach.xml" value="0.25" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/practica_semana_16/app/src/main/res/layout/activity_ejemplo_if.xml" value="0.2" />
+        <entry key="..\:/Users/mau_e/AndroidStudioProjects/practica_semana_16/app/src/main/res/layout/activity_ejemplo_while.xml" value="0.22" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/practica_semana_16/app/src/main/res/layout/activity_main.xml" value="0.1859375" />
       </map>
     </option>

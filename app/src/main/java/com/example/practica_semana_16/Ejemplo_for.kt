@@ -10,17 +10,16 @@ class Ejemplo_for : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ejemplo_for)
 
+        val Texview = findViewById(R.id.texfor) as TextView
+
         val botton = findViewById(R.id.btfor) as Button
         botton.setOnClickListener{
-            Main(args)
+            for(num in 1..5){
+                Texview.setText("Numbero: $num\n")
+
+            }
 
         }
     }
-    fun Main (args:Array <String>){
-        val Texview = findViewById(R.id.texfor) as TextView
-for(i in 1..100 step 2){
-    Texview.setText(i)
 
-}
     }
-}
