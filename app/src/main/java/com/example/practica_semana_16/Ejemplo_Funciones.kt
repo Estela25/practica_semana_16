@@ -15,11 +15,16 @@ class Ejemplo_Funciones : AppCompatActivity() {
         val n2=findViewById(R.id.txtN2) as EditText
         val r=findViewById(R.id.txtR) as TextView
         val sumar=findViewById(R.id.btnSumar) as Button
+        var resultado=sumar(1,2)
 
         sumar.setOnClickListener{
             r.setText(
-                "la respuesta es: "+(n1.text.toString().toInt()+n2.text.toString().toInt())
+                "la respuesta es: $resultado"
             )
         }
+    }
+    fun sumar(a: Int,b:Int): Int{
+        var suma =a+b
+        return suma
     }
 }
