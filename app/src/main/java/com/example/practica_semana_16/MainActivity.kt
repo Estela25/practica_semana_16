@@ -5,23 +5,23 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 
-// creacipn de las fiunciones
+
 data class Perfiles (val nombre:String, val usuario:String)
-//crear los campos que se necesiten
+
 
 class MainActivity : AppCompatActivity() {
-    // creacion de variables de la pantalla
-    val Integrante1 = Perfiles(nombre = "Eduardo", usuario = "eduardo")
-    val Integrante2 = Perfiles(nombre = "Miguel", usuario = "Migel")
+
+    val Integrante1 = Perfiles(nombre = "Luis", usuario = "Luis")
+    val Integrante2 = Perfiles(nombre = "Rigoberto", usuario = "Rigoberto")
     var Integrante = Integrante1.copy()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //creacion de procesos, llamada de funcion
+
 
         val txt=findViewById(R.id.txtINT) as TextView
-        //txt.setText("Hola soy Katerin")
+
 
 
         val boton=findViewById (R.id.btnCambiar) as Button
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-    //creacion de
+
     fun VerPantalla(s:String){
         val txt=findViewById(R.id.txtINT) as TextView
         txt.setText(s)
